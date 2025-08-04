@@ -1,0 +1,55 @@
+# Nmap 7.95 scan initiated Mon Aug  4 21:11:37 2025 as: /usr/lib/nmap/nmap -sS -oN nmap-output.txt -sV 10.61.114.0/24
+Nmap scan report for 10.61.114.61
+Host is up (0.023s latency).
+Scanned at 2025-08-04 21:11:45 IST for 2s
+All 1000 scanned ports on 10.61.114.61 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: xx:xxx:xx:xx:34(Unknown)
+
+Nmap scan report for 10.61.114.78
+Host is up (0.017s latency).
+Scanned at 2025-08-04 21:11:45 IST for 58s
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.51
+MAC Address: xx:xx:xx:xx:33(Unknown)
+
+Nmap scan report for 10.61.114.119
+Host is up (0.20s latency).
+Scanned at 2025-08-04 21:11:45 IST for 2s
+All 1000 scanned ports on 10.61.114.119 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: xx:xx:x:xx:xx: (Liteon Technology)
+
+Nmap scan report for 10.61.114.147
+Host is up (0.013s latency).
+Scanned at 2025-08-04 21:11:45 IST for 58s
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+53/tcp open  domain  dnsmasq 2.90
+MAC Address: xx:xx:x:xx:xx: (Intel Corporate)
+
+Nmap scan report for 10.61.114.185
+Host is up (0.19s latency).
+Scanned at 2025-08-04 21:11:45 IST for 58s
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE         VERSION
+7070/tcp open  ssl/realserver?
+MAC Address: xx:xx:xx:xx:xx: (Intel Corporate)
+
+Nmap scan report for 10.61.114.198
+Host is up (0.024s latency).
+Scanned at 2025-08-04 21:11:45 IST for 2s
+All 1000 scanned ports on 10.61.114.198 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: xx:xx:xx:xx:xx:(Unknown)
+
+Nmap scan report for 10.61.114.182
+Host is up (0.0000020s latency).
+Scanned at 2025-08-04 21:12:43 IST for 0s
+All 1000 scanned ports on 10.61.114.182 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Aug  4 21:12:43 2025 -- 256 IP addresses (7 hosts up) scanned in 66.54 seconds
